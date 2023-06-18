@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Save - Treasure Text</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../nav.css">
+</head>
+<body>
+<nav style="border-bottom-style:solid; border-radius:5px; border-bottom-color: white;">
+<h2 id="h2">TreasureText</h2>
+<div id="a_m">
+	<a class="n" href="../index.html">Home</a>
+<a  class="n" style="color:grey;"><span>Save New Text</span></a>
+<a id="a2" class="n" href="../find_page/find.html">Find Text</a>
+</div>
+</nav>
+<form action="done.php" method="post">
+	
+	<input type="text" name="title" placeholder="Title"  required> <br>
+	<input type="password" name="password" placeholder="Password" required><br>
+	<textarea name="main_text" placeholder="Text" required></textarea><br>
+	<input type="submit" value="Save">
+
+</form>
+</body>
+</html>
